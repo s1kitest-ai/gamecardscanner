@@ -1,1 +1,90 @@
+# Xcode build and derived data
 build/
+DerivedData/
+*.xcworkspace/xcuserdata
+*.xcworkspace/xcshareddata/workspace.xcworkspace
+*.xcworkspace/xcshareddata/SoftLinks.xcworkspacedata
+*.xcworkspace/xcshareddata/.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/shareddata/.xcuserstate
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# Dependencies
+Carthage/Build
+Carthage/Checkouts
+Vendor/
+Pods/
+Podfile.lock
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# SPM
+.build/
+Package.resolved
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Bundle artifacts
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Xcode build products
+*.o
+*.linkfilelist
+*.ipa
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Simulator
+simulator/
+
+# Archives
+*.xcarchive
+
+# User-specific
+*.xcuserstate
+UserInterfaceState.xcuserstate
+
+# IDE
+.idea/
+*.swp
+*.swo
+*.lo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crypto
+*.p12
+*.mobileprovision
+
+# Seeding
+xcshareddata/WorkspaceSettings.xcsettings
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
